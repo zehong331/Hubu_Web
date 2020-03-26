@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="" title="">
+    <siteMapNode url="" title="网站首页" />
+    <siteMapNode url="" title="教务管理" />
+    <siteMapNode url="" title="教务概况" />
+    <siteMapNode url="" title="教学研究" />
+  </siteMapNode>
+</siteMap>

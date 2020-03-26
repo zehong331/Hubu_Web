@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="" title="">
+    <siteMapNode url="~/ViewAdmin/UserCenter.aspx" title="个人中心" />
+    <siteMapNode url="" title="学生管理">
+      <siteMapNode url="" title="学生选课" />
+      <siteMapNode url="" title="学生退课" />
+    </siteMapNode>
+    <siteMapNode url="~/ViewAdmin/UserModfity.aspx" title="教师管理" />
+    <siteMapNode url="" title="课程管理" />
+    <siteMapNode url="" title="角色管理" />
+  </siteMapNode>
+</siteMap>

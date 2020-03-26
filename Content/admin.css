@@ -1,0 +1,111 @@
+﻿html, body, form
+{
+    margin: 0;
+}
+html, body, .MainForm, .MainPane, .ContentPane, .CallbackPanel
+{
+    height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body 
+{
+    background: white;
+    color: Black;
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    overflow-y: hidden;
+}
+.top{
+    height:50px;
+    width:100%;
+    padding:10px;
+    background-color:#019789!important;
+    border:none;
+}
+.left{
+    height:800px;
+    width:100%; 
+}
+
+.LeftPanel
+{
+    padding: 0!important;
+    border-right-width: 0px !important;
+    background-color: #019789!important;
+    color: white;
+    width:150px;
+}
+.LeftPanel .LeftPanelSelectedExpandButton img
+{
+    background-position: -84px -258px!important;
+}
+.LeftPanel .LeftPanelHoveredExpandButton,
+.LeftPanel .LeftPanelPressedExpandButton
+{
+    background-color: #019789!important;
+}
+
+.LeftMenu
+{
+    margin-left: 10px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+.LeftMenu .MenuItem,
+.LeftMenu .MenuHoveredItem,
+.LeftMenu .MenuSelectedItem
+{
+    color: white!important;
+}
+.LeftMenu .MenuHoveredItem,
+.LeftMenu .MenuSelectedItem
+{
+    background-color: #275039!important;
+}
+.LeftMenu ..MenuItem .dxm-content
+{
+    padding-top: 17px!important;
+    padding-left: 18px!important;
+}
+.LeftMenu .MenuItem
+{
+    height: 60px;
+}
+
+.CallbackPanel{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+
+.Default{
+    z-index:999;
+    position:absolute;
+    right:20px;
+    top:25px;
+}
+
+.Default .a{
+    position:relative;
+    text-decoration:none;
+    font-size:15px;
+    color:white;
+}
+#MainFrame{
+    font-family: 宋体; 
+    font-size: large; 
+    -weight: bold; 
+    vertical-align: middle; 
+    text-align: center;
+    margin: 0px; position: relative; 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    bottom: 10px; 
+    overflow: hidden; 
+    clip: rect(auto, auto, 10px, auto); 
+    border-width: 0
+}
